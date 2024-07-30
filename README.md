@@ -34,7 +34,7 @@ Run the script using Python:
 python poap_minters_fetcher.py
 ```
 
-The script will fetch data for all specified event IDs in parallel and create a CSV file named `poap_minters_data.csv` in the same directory.
+The script will fetch data for all specified event IDs in parallel and create a CSV file named `poap_minters_data.csv` in the output directory.
 
 ## Output
 
@@ -45,6 +45,7 @@ The generated CSV file will contain the following columns for each token:
 - mint_order
 - transfer_count
 - first_transfer_id
+- first_transfer_timestamp
 - first_transfer_from
 - first_transfer_to
 - current_owner
